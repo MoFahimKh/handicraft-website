@@ -17,6 +17,12 @@ export default function Home() {
               M/S SAI SADGGURU HANDICRAFT PRODUCER COMPANY LIMITED, HYDERABAD
             </p>
             <p className="mt-2 text-base md:text-lg text-gray-500">
+              CLUSTER ADDRESS: YAQUTPURA OLD CITY AND SURROUNDING, HYDERABAD <br />
+              CRAFT: HAND EMBROIDERY, ARI WORK AND ZARI WORK <br />
+              NUMBER OF ARTISANS: 500 ARTISANS <br />
+              NUMBER OF DIRECTORS: 05 DIRECTORS <br />
+              NUMBER OF MEMBER ARTISANS: 10 ARTISANS <br />
+              CATEGORY: GENERAL,MINORITY <br />
               Sponsored by the Office of the Development Commissioner
               (Handicrafts),
               <br />

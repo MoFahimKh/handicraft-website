@@ -62,7 +62,7 @@ export function Navbar() {
             ))}
             <Link
               href="/contactUs"
-              className="bg-gradient-to-r py-2 px-3 whitespace-nowrap font-semibold border-0 rounded-3xl from-green-600 to-teal-400 hover:from-green-700 hover:to-teal-500 text-white"
+              className="text-muted-foreground hover:text-primary transition-colors duration-200 whitespace-nowrap"
             >
               Contact Us
             </Link>

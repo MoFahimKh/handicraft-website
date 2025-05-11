@@ -16,7 +16,7 @@ export function Footer() {
             <Link href="/" className="inline-block mb-6">
               <Image
                 alt="Logo"
-                src="/AncilarName.png"
+                src="/logo.png"
                 height={300}
                 width={300}
                 className="max-h-12 object-cover"
@@ -25,29 +25,7 @@ export function Footer() {
             <p className="text-muted-foreground mb-6">
               Empowering Artisans. Celebrating Indian Heritage.
             </p>
-            <div className="flex space-x-4">
-              <Button
-                size="icon"
-                variant="ghost"
-                className="hover:text-blue-400 hover:bg-blue-950/20"
-              >
-                <Twitter className="h-5 w-5" />
-              </Button>
-              <Button
-                size="icon"
-                variant="ghost"
-                className="hover:text-purple-400 hover:bg-purple-950/20"
-              >
-                <Instagram className="h-5 w-5" />
-              </Button>
-              <Button
-                size="icon"
-                variant="ghost"
-                className="hover:text-blue-400 hover:bg-blue-950/20"
-              >
-                <Linkedin className="h-5 w-5" />
-              </Button>
-            </div>
+            
           </div>
 
           <div>
@@ -55,7 +33,7 @@ export function Footer() {
             <ul className="space-y-3">
               <li>
                 <Link
-                  href="#about"
+                  href="#home"
                   className="text-muted-foreground hover:text-primary transition-colors"
                 >
                   About Us
@@ -119,23 +97,7 @@ export function Footer() {
             </ul>
           </div> */}
 
-          <div>
-            <h3 className="font-semibold text-lg mb-4">Stay Updated</h3>
-            <p className="text-muted-foreground mb-4">
-              Subscribe to our newsletter for the latest updates on our
-              services.
-            </p>
-            <div className="flex flex-col space-y-3">
-              <Input
-                type="email"
-                placeholder="Enter your email"
-                className="bg-zinc-900 border-zinc-700"
-              />
-              <Button className="w-full bg-gradient-to-r from-green-600 to-teal-400 hover:from-green-700 hover:to-teal-500 text-white">
-                Subscribe
-              </Button>
-            </div>
-          </div>
+          
         </div>
 
         <div className="border-t border-zinc-800 mt-12 pt-8 text-center text-muted-foreground">
